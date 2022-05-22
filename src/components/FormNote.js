@@ -23,6 +23,7 @@ const FormNote = () => {
         categories: [],
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectednote]);
 
   const [note, saveNote] = useState({
